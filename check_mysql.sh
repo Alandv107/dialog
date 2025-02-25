@@ -1,8 +1,8 @@
 #!/bin/bash 
  
 DB_HOST="labdb.coded2.fun" 
-DB_USER="alan" 
-DB_PASS="123456" 
+DB_USER=＂" 
+DB_PASS="" 
 DB_NAME="KOL_ALAN" 
 TEMP_FILE="query_result.txt" 
  
