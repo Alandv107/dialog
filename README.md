@@ -1,5 +1,18 @@
-使用 dialog 套件提供直觀的文字介面
-連接 MariaDB 資料庫獲取最新數據
-支援條件過濾
-自動顯示最新的 10 筆記錄
-友善的錯誤處理和提示
+一個互動式 Shell 腳本，讓你可以透過 `dialog` 視窗選單查詢 MySQL 中 Instagram / TikTok / YouTube 的影片資料。
+
+---
+
+## 📦 環境需求
+
+- `bash`
+- `mysql` CLI 工具
+- `dialog` 套件
+
+安裝 `dialog`：
+
+```bash
+# Debian / Ubuntu
+sudo apt-get install dialog
+
+# macOS (使用 Homebrew)
+brew install dialog
